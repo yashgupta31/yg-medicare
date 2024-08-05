@@ -1,0 +1,89 @@
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    font-family: sans-serif;
+}
+
+/* #signup-container{
+    background-color: lightcoral;
+    width: 35vw;
+    height: 70vh;
+    margin: auto;
+
+} */
+
+#signup-left-container{
+    background-color: #c5fff9;
+    width: 40%;
+    padding: 6rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+}
+
+.back-to-home{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #10847E;
+}
+
+.signup-welcome-head{
+    margin-bottom: -1rem;
+    font-size: 3.5rem;
+}
+
+.signup-welcome-msg{
+    font-size: 1.8rem;
+}
+
+#signup-right-container{
+    width: 50%;
+    /* background-color: orange; */
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    /* padding: 3rem 8rem; */
+    justify-content: center;
+
+}
+
+.signup-name-input, .signup-password-input{
+    width: 80%;
+    /* height: 2rem; */
+    padding: 0.7rem 0rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+
+}
+
+
+.signup-btn{
+    padding: 1.2rem 0rem;
+    width: 83%;
+    background-color: #10847E;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-bottom-para{
+    margin-top: 3rem;
+    font-size: 1.2rem;
+}
+
+.login-now-link{
+    /* text-decoration: none; */
+    color: #10847E;
+}

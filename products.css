@@ -1,0 +1,289 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width: 100vw;
+}
+
+#navbar-container {
+    background-color: white;
+    width: 100%;
+    
+    /* height: 3rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1.9px solid rgba(128, 128, 128, 0.226);
+    position: fixed;
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.189) 0px 3px 8px;
+}
+
+#nav-top-container {
+    display: flex;
+    align-items: center;
+    /* background-color: yellow; */
+    justify-content: space-between;
+    width: 100vw;
+    height: 4rem;
+    border-bottom: 1.9px solid rgba(128, 128, 128, 0.226);
+    color: #30363C;
+}
+
+#nav-input-back {
+    background-color: pink;
+    width: 30rem;
+    height: 70%;
+    display: flex;
+}
+
+#nav-top-left-container {
+    display: flex;
+    /* background-color: yellow; */
+    width: 20rem;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 3rem;
+}
+
+#logo-container {
+    /* background-color: lightgreen; */
+    display: flex;
+    width: 11rem;
+    justify-content: space-evenly;
+}
+
+#logo-name-para-container {
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: column;
+    color: #068258;
+}
+
+#YG-pharma-title {
+    font-size: 18px;
+    text-decoration: none;
+    color: #068258;
+    font-weight: 700;
+}
+
+.logo-img {
+    width: 9rem;
+    height: 2.6rem;
+    cursor: pointer;
+}
+
+#nav-top-right-container {
+    display: flex;
+    background-color: white;
+    width: 40%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#DownloadApp-btn {
+    padding: 0.6rem 2rem;
+    border-radius: 8px;
+    background-color: #EEF4FF;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#DownloadApp-btn:hover {
+    background-color: #d8dee9;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #30363C;
+}
+
+.cartlink-counter-container {
+    /* background-color: yellow; */
+    position: relative;
+}
+
+.nav-cart-counter {
+    background-color: #10847e9e;
+    /* background-color: rgba(255, 68, 0, 0.579); */
+    position: absolute;
+    top: -7px;
+    right: -16px;
+    height: 17px;
+    width: 17px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+}
+
+/* ------------logout------------- */
+#logout-btn-container{
+    /* visibility: hidden; */
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: absolute;
+    right: 1rem;
+    top: 2.8rem;
+    height: 5rem;
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    visibility: hidden;
+    border-radius: 5px;
+
+}
+
+.logout-btn-before, .my-account{
+    /* background-color: red; */
+    width: 86%;
+    padding: 0.5rem 0rem;
+    /* position: absolute; */
+    padding-left: 1rem;
+    cursor: pointer; 
+}
+
+.logout-btn-before:hover, .my-account:hover{
+    background-color: #EEF4FF;
+}
+
+.logout-btn-before{
+    border: 1px solid rgba(128, 128, 128, 0.536);
+    color: rgba(255, 85, 0, 0.734);
+}
+
+#nav-bottom-container {
+    display: flex;
+    /* background-color: red; */
+    width: 45%;
+    justify-content: space-evenly;
+    padding: 8px 0px;
+
+}
+
+.nav-bottom-links:hover {
+    color: #10847e;
+    transition: 0.3s;
+}
+
+/* -----------------------------------------------all products------------------------------------ */
+
+#all-products-container {
+    width: 100%;
+    /* background-color: pink; */
+    /* padding: 1rem 8rem; */
+    padding-top: 8rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#all-products-left-container {
+    /* background-color: lightskyblue; */
+    /* width: 30%; */
+    width: 550px;
+}
+
+#search-query-msg-container {
+    /* background-color: red; */
+    width: 94%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.search-msg {
+    /* background-color: aqua; */
+    font-size: 1.5rem;
+    width: 60%;
+
+}
+
+#search-query-title {
+    font-size: 2.5rem;
+    /* background-color: yellow; */
+    width: 47%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 0.6rem;
+    font-weight: 600;
+}
+
+#display-products-container {
+    /* background-color: lightgoldenrodyellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.each-display-product-container {
+    /* background-color: lightgreen; */
+    width: 550px;
+    height: 185px;
+    display: flex;
+    align-items: start;
+    border: 1px solid rgba(128, 128, 128, 0.453);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+
+.each-display-img {
+    width: 4rem;
+    padding: 1rem;
+    text-align: start;
+}
+
+.each-display-right-container {
+    /* background-color: yellow; */
+    width: 79%;
+    padding: 1.3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 77%;
+    position: relative;
+}
+
+.each-add-to-cart-btn {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    width: 8.7rem;
+    padding: 0.7rem 0rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #10847E;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.each-add-to-cart-btn:hover{
+    background-color: rgb(30, 118, 89);
+}
+
+.no-search-found-container{
+    /* background-color: lightcoral; */
+    width: 39rem;
+    height: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.603);
+    margin-top: 1rem;
+}
+
+.no-search-found-img{
+    height: 10rem;
+}
